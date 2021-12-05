@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: lightcoral;
+  font-family: 'Dosis', sans-serif;
+}
+
+header{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+h1{
+  border-bottom: 3px solid white;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card{
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  margin: 50px;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.4s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.10);
+  color: white;
+  background-color: #7FC8A9;
+  text-decoration: underline;
+}
+
+.card-image{
+  height: 350px;
+  border-radius: 25px 25px 0 0 ;
+  margin-bottom: 40px;
+}
+
+.card{
+  text-align: center;
+}
+
+.ysabelle{
+  background-image: url(../img/ysa.jpg);
+  background-size: cover;
+}
+
+.angel{
+  background-image: url(../img/angel1.jpeg);
+  background-size: cover;
+}
+
+.mae{
+  background-image: url(../img/mae.jpg);
+  background-size: cover;
+}
+
+.sophia{
+  background-image: url(../img/sophia.jpg);
+  background-size: cover;
+}
+
+.kraine{
+  background-image: url(../img/kraine1.jpg);
+  background-size: cover;
+}
